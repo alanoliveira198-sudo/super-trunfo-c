@@ -14,8 +14,6 @@ typedef struct {
 int main(void) {
 
     setlocale(LC_ALL, "pt_BR.UTF-8");
-
-    setlocale(LC_ALL, "pt_BR.UTF-8");
     setlocale(LC_NUMERIC, "C");
 
 
