@@ -11,6 +11,7 @@ O programa foi desenvolvido em **C**, utilizando o **MinGW** para compilação e
 Os dados são lidos diretamente do usuário e exibidos de forma organizada e legível.
 
 ---
+projeto desenvolvido pelo aluno: Alan Oliveira
 
 ## 🧩 Como compilar e executar
 
@@ -20,4 +21,4 @@ No terminal (CMD ou PowerShell), dentro da pasta do projeto:
 gcc super_trunfo.c -o super_trunfo -Wall -Wextra -std=c11
 super_trunfo
 
-projeto desenvolvido pelo aluno: Alan Oliveira
+
