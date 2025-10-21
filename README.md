@@ -3,45 +3,56 @@
 Projeto desenvolvido como parte das atividades da faculdade, no módulo introdutório de programação em C.  
 O objetivo é criar a base do jogo **Super Trunfo de Cidades**, permitindo o cadastro e a exibição de **duas cartas**, sem uso de laços ou estruturas de decisão.
 
----
-## 🧠 1- NIVEL NOVATO
 
 ## 🧠 Descrição
 
 O programa foi desenvolvido em **C**, utilizando o **MinGW** para compilação e testes no ambiente **Windows**.  
 Os dados são lidos diretamente do usuário e exibidos de forma organizada e legível.
 
+
+---
+## 🧠 1- NIVEL NOVATO
 ---
 
 
-projeto desenvolvido pelo aluno: Alan Oliveira
+Neste desafio inicial do Super Trunfo de Países, o objetivo é criar um programa em C que permita o cadastro e exibição de duas cartas representando cidades. Cada carta deve conter informações como estado, código, nome da cidade, população, área, PIB e número de pontos turísticos.
+O programa deve ler os dados digitados pelo usuário, armazená-los em variáveis apropriadas e depois exibi-los formatados na tela, sem utilizar estruturas de repetição ou decisão.
+O foco deste nível é praticar entrada e saída de dados, organização do código e clareza na exibição das informações.
+
 
 ## 🧩 Como compilar e executar
 
 No terminal (CMD ou PowerShell), dentro da pasta do projeto:
 
 ```bash
-gcc super_trunfo.c -o super_trunfo -Wall -Wextra -std=c11
-super_trunfo
+gcc super_trunfo_novato.c -o super_trunfo_novato -Wall -Wextra -std=c11
+super_trunfo_novato
 ```
 
 ---
-## 🧠 1- NIVEL AVENTUREIRO
+## 🧠 2- NIVEL AVENTUREIRO
 
-## 🧠 Descrição
+Neste nível Aventureiro do projeto Super Trunfo de Países, o objetivo é aprimorar o programa em C criado anteriormente, adicionando cálculos automáticos para Densidade Populacional e PIB per Capita de duas cidades.
+O programa deve continuar lendo os mesmos dados (estado, código, nome da cidade, população, área, PIB e pontos turísticos), mas agora também deve:
 
-O programa foi desenvolvido em **C**, utilizando o **MinGW** para compilação e testes no ambiente **Windows**.  
-Os dados são lidos diretamente do usuário e exibidos de forma organizada e legível.
+Calcular a densidade populacional (população ÷ área).
 
----
+Calcular o PIB per capita (PIB ÷ população).
 
+Exibir os resultados formatados com duas casas decimais, junto às demais informações da carta.
 
-projeto desenvolvido pelo aluno: Alan Oliveira
+O projeto mantém as boas práticas do nível básico — legibilidade, clareza e corretude — e deve continuar sem utilizar estruturas de repetição ou decisão.
+O foco deste nível é aplicar operações matemáticas em C e aprimorar a organização e exibição dos dados do jogo.
+
 
 ## 🧩 Como compilar e executar
 
 No terminal (CMD ou PowerShell), dentro da pasta do projeto:
 
 ```bash
-gcc super_trunfo.c -o super_trunfo -Wall -Wextra -std=c11
-super_trunfo
+gcc super_trunfo_aventureiro.c -o super_trunfo_aventureiro -Wall -Wextra -std=c11
+super_trunfo_aventureiro
+```
+
+
+projeto desenvolvido pelo aluno: Alan Oliveira
