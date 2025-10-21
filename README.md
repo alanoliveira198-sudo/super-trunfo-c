@@ -52,7 +52,27 @@ super_trunfo_aventureiro
 
 ## 🧠 3- NIVEL MESTRE
 
-****TEXTO
+Neste nível avançado do Super Trunfo de Países, você evolui o programa em C para comparar duas cartas e determinar vencedores por atributo, incluindo um novo indicador: Super Poder. A população passa a ser unsigned long int; demais tipos permanecem.
+
+O que o programa faz:
+
+Lê os dados de duas cartas (estado, código, cidade, população unsigned long int, área, PIB, pontos turísticos).
+
+Calcula:
+
+Densidade populacional = população ÷ área (quanto menor, melhor).
+
+PIB per capita = PIB ÷ população.
+
+Super Poder (float) = população + área + PIB + pontos turísticos + PIB per capita + (1 ÷ densidade) — atenção às conversões de tipo.
+
+Compara atributo a atributo (população, área, PIB, pontos turísticos, densidade, PIB per capita e Super Poder):
+
+Menor densidade vence; nos demais, maior valor vence.
+
+Exibe o resultado de cada comparação indicando a carta vencedora e o valor 1 (Carta 1 venceu) ou 0 (Carta 2 venceu).
+
+Foco: operadores relacionais, conversões/“casting” e organização clara da saída. Resultado: um sistema de batalha de cartas robusto, eficiente e pronto para demonstrar sua maestria em C.
 
 
 ## 🧩 Como compilar e executar
