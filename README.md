@@ -48,5 +48,6 @@ gcc super_trunfo_aventureiro.c -o super_trunfo_aventureiro -Wall -Wextra -std=c1
 super_trunfo_aventureiro
 ```
 
-
+---
 projeto desenvolvido pelo aluno: Alan Oliveira
+---
