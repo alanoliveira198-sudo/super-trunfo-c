@@ -49,5 +49,23 @@ super_trunfo_aventureiro
 ```
 
 ---
+
+## 🧠 3- NIVEL MESTRE
+
+****TEXTO
+
+
+## 🧩 Como compilar e executar
+
+No terminal (CMD ou PowerShell), dentro da pasta do projeto:
+
+```bash
+gcc super_trunfo_mestre.c -o super_trunfo_mestre -Wall -Wextra -std=c11
+super_trunfo_mestre
+```
+
+---
+
+
 projeto desenvolvido pelo aluno: Alan Oliveira
 ---
