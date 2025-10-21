@@ -1,11 +1,5 @@
 # 🃏 Super Trunfo
 
-Projeto desenvolvido como parte das atividades da faculdade, no módulo introdutório de programação em C.  
-O objetivo é criar a base do jogo **Super Trunfo de Cidades**, permitindo o cadastro e a exibição de **duas cartas**, sem uso de laços ou estruturas de decisão.
-
-
-## 🧠 Descrição
-
 O programa foi desenvolvido em **C**, utilizando o **MinGW** para compilação e testes no ambiente **Windows**.  
 Os dados são lidos diretamente do usuário e exibidos de forma organizada e legível.
 
